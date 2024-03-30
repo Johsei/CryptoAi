@@ -3,7 +3,6 @@ import os
 from tqdm import tqdm
 import warnings
 import numpy as np
-import tensorflow as tf
 from sklearn.preprocessing import MinMaxScaler
 
 def import_orderbooks(input_path):
